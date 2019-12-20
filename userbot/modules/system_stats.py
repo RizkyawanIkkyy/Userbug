@@ -119,18 +119,24 @@ async def pipcheck(pip):
         await pip.edit("`Use .help pip to see an example`")
 
 
-@register(outgoing=True, pattern="^!alive$")
+@register(outgoing=True, pattern="^!idup$")
 async def amireallyalive(alive):
     """ For !alive command, check if the bot is running.  """
     await alive.edit("`"
-                     "안녕하세요 \n"
                      " \n"
-                     "Bot is running \n"
+                     "Bot is running cuk \n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
 
                      f"User: {DEFAULTUSER} \n\n"
-                     "좋은 하루 되세요"
+                     " \n"
+                     f"Edited : @Kry9toN \n"
+                     " _  __           ____  _        _   _  \n"
+                     "| |/ /_ __ _   _|  _ \| |_ ___ | \ | | \n"
+                     "| ' /| '__| | | | |_) | __/ _ \|  \| | \n"
+                     "| . \| |  | |_| |  __/| || (_) | |\  | \n"
+                     "|_|\_\_|   \__, |_|    \__\___/|_| \_| \n"
+                     "           |___/                       \n"
                      " \n"
                  "`")    
 
