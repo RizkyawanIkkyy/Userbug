@@ -127,7 +127,7 @@ async def amireallyalive(alive):
                      " • Bug is running cuk \n"
                      f" ✓ Telethon version: {version.__version__} \n"
                      f" ✓ Python: {python_version()} \n"
-                     " • User: {DEFAULTUSER} \n\n"
+                     f" • User: {DEFAULTUSER} \n\n"
                      "▄▄   ▄▄▄ \n"
                      "██  ██▀ \n"
                      "██▄██ \n"
