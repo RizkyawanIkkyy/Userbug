@@ -124,7 +124,7 @@ async def amireallyalive(alive):
     """ For !alive command, check if the bot is running.  """
     await alive.edit("`"
                      " \n"
-                     "Bot is running cuk \n"
+                     "Bug is running cuk \n"
                      f"Telethon version: {version.__version__} \n"
                      f"Python: {python_version()} \n"
 
