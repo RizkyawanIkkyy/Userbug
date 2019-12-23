@@ -20,11 +20,13 @@ from userbot.events import register
 @register(outgoing=True, pattern="^!krypton$")
 async def shalom(e):
     await e.edit(
-        "\n _  __"
-        "\n| |/ /"
-        "\n| ' /"
-        "\n| , \"
-        "\n|_|\_\"
+        "\n▄▄   ▄▄▄"
+        "\n██  ██▀"
+        "\n██▄██"
+        "\n█████"
+        "\n██  ██▄"
+        "\n██   ██▄"
+        "\n▀▀    ▀▀"
         "\n"
         "\n _ __"
         "\n| '__|"
