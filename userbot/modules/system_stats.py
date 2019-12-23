@@ -119,15 +119,15 @@ async def pipcheck(pip):
         await pip.edit("`Use .help pip to see an example`")
 
 
-@register(outgoing=True, pattern="^!idup$")
+@register(outgoing=True, pattern="^!idup?$")
 async def amireallyalive(alive):
     """ For !alive command, check if the bot is running.  """
     await alive.edit("`"
                      " \n"
                      " • Bug is running cuk \n"
-                     f" ✓ Telethon version: {version.__version__} \n"
-                     f" ✓ Python: {python_version()} \n"
-                     f" • User: {DEFAULTUSER} \n\n"
+                     f" ✓ Telethon version 📱: {version.__version__} \n"
+                     f" ✓ Python 🐍: {python_version()} \n"
+                     f" • User 😎: {DEFAULTUSER} \n"
                      "▄▄   ▄▄▄ \n"
                      "██  ██▀ \n"
                      "██▄██ \n"
