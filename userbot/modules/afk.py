@@ -122,7 +122,7 @@ async def set_afk(afk_e):
     if string:
         AFKREASON = string
         await afk_e.edit(f"Enggak bukak telegram!\
-        \nReason: `{string}`")
+        \nKarena: `{string}`")
     else:
         await afk_e.edit("Aku AFS!")
     if BOTLOG:
